@@ -6,11 +6,11 @@
 #    By: shbi <shbi@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/13 17:41:50 by shbi              #+#    #+#              #
-#    Updated: 2022/07/15 21:03:52 by shbi             ###   ########.fr        #
+#    Updated: 2022/07/18 11:37:22 by shbi             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS		=	push_swap.c list_function.c
+SRCS		=	push_swap.c list_function.c operation.c
 OBJS		=	$(SRCS:.c=.o)
 NAME		=	push_swap
 HEADER		=	push_swap.h
